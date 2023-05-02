@@ -5940,6 +5940,7 @@ declare namespace monaco.editor {
 		 * Update the editor's options after the editor has been created.
 		 */
 		updateOptions(newOptions: IDiffEditorOptions): void;
+		setBoundarySashes(sashes: IBoundarySashes): void;
 	}
 
 	export class FontInfo extends BareFontInfo {
